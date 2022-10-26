@@ -1,7 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
-export default function AboutMe() {
+const AboutMe = props => {
   return (
-    <div>AboutMe</div>
+    <h1>About Me</h1>
   )
 }
+
+
+AboutMe.PropTypes = {}
+
+export default AboutMe;
