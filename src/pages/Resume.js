@@ -1,13 +1,11 @@
-import React from 'react'
-
+import React from "react";
 
 const Resume = () => {
   return (
-    <h1>Resume</h1>
-  )
-}
-
-
-
+    <div className="container">
+      <h1>Resume</h1>
+    </div>
+  );
+};
 
 export default Resume;
