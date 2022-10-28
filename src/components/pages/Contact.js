@@ -4,15 +4,15 @@ const Contact = () => {
   return (
     <div className="container">
       <h1>Contact</h1>
-      <form>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <form className="col-6">
+        <div className="mb-3">
+          <label for="email" className="form-label">Email address</label>
+          <input type="email" className="form-control" id="email" placeholder="name@example.com">
             </input>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div className="mb-3">
+          <label for="message" className="form-label">Message Me</label>
+          <textarea className="form-control" id="message" rows="3"></textarea>
         </div>
       </form>
     </div>
