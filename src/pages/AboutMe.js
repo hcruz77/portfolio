@@ -1,7 +1,7 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
-const AboutMe = props => {
+const AboutMe = () => {
   return (
     <div className="container">
       <h1>About Me</h1>
@@ -18,6 +18,7 @@ const AboutMe = props => {
   );
 };
 
-AboutMe.propTypes = {};
+
+AboutMe.PropTypes = {} 
 
 export default AboutMe;
