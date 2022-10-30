@@ -20,8 +20,12 @@ import {
 
 const Portfolio = () => {
   return (
-    <MDBContainer>
+    <>
+    <div className=" p-5"> 
       <h1>Portfolio</h1>
+    </div>
+    <MDBContainer className="fluid p-5 min-vh-100">
+      
       <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
         <MDBCol>
           <MDBCard>
@@ -121,6 +125,7 @@ const Portfolio = () => {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
+    </>
 
       
           

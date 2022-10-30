@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container-fluid p-5 min-vh-100">
       <h1>Contact</h1>
       <form className="col-6">
         <div className="mb-3">

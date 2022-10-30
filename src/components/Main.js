@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from "react";
 //import "./App.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 import NavBar from './NavBar';
 import AboutMe from "./pages/AboutMe";
@@ -30,11 +32,19 @@ export default function Main() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
+    <>
+    <div className=" text-left pt-3 ">
+      <Header />
+    </div>
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
+    <div>
+      <Footer />
+    </div>
+    </>
   );
 }

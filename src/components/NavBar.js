@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-pills nav-fill">
+    <ul className="nav nav-pills nav-fill px-5">
       <li className="nav-item">
         <a
           href="#aboutme"
