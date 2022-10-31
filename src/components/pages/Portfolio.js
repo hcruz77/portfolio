@@ -18,7 +18,7 @@ import {
 
 
 
-const Portfolio = () => {
+const Portfolio = (project) => {
   return (
     <>
     <div className=" p-5"> 
