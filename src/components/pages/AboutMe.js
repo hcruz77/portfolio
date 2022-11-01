@@ -21,6 +21,6 @@ const AboutMe = () => {
 };
 
 
-//AboutMe.PropTypes = {} 
+
 
 export default AboutMe;
