@@ -1,138 +1,77 @@
-import React from 'react';
-import {
-  MDBCard,
-  MDBCardImage,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-  MDBRow,
-  MDBCol,
-  MDBContainer,
-  MDBCardOverlay,
-  MDBCardLink
-  
-} from 'mdb-react-ui-kit';
+import React, { useState } from "react";
+import greeneryOne from "../../assets/images/greeneryOne";
+
+import greeneryTwo from "../../assets/images/greeneryTwo";
 
 
+const Portfolio = () => {
+  const [projects] = useState([
+    {
+      title: "Text Editor",
+      image: {greeneryOne},
+      link: "https://github.com/hcruz77/text-editor",
+      description: "PWA"
+    },
 
+    {
+      title: "Tech Blog",
+      image: {greeneryTwo},
+      link: "https://github.com/hcruz77/tech-blog",
+      description: "Full Stack MVC"
+    },
 
+    {
+      title: "Note Taker",
+      image: "",
+      link: "https://github.com/hcruz77/note-taker",
+      description: "JSON Server"
+    },
 
+    {
+      title: "Weather Dashboard",
+      image: "",
+      link: "https://github.com/hcruz77/weather-dashboard",
+      description: "Server-Side APIs"
+    },
 
-const Portfolio = (project) => {
+    {
+      title: "Work Day Scheduler",
+      image: "",
+      link: "https://github.com/hcruz77/work-day-scheduler",
+      description: "jQuery/Bootstrap"
+    },
+
+    {
+      title: "Password Generator",
+      image: "",
+      link: "https://github.com/hcruz77/password-generator",
+      description: "JavaScript"
+    },
+  ]);
+
   return (
-    <>
-    <div className=" p-5"> 
+    <div className=" p-5">
       <h1>Portfolio</h1>
+      <div className="container-fluid p-5 min-vh-100">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          {projects.map((project) => (
+            <div class="col">
+              <div class="card">
+                <img
+                  src={project.image}
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href={project.link}>{project.title}</a></h5>
+                  <p class="card-text">{project.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
-    <MDBContainer className="fluid p-5 min-vh-100">
-      
-      <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
-        <MDBCol>
-          <MDBCard>
-            <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-            alt='...'
-            position='top'
-          />
-            <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
-              <MDBCardText>
-                This is a longer card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </MDBCardText>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol>
-          <MDBCard>
-            <MDBCardImage
-              src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-              alt='...'
-              position='top'
-            />
-            <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
-              <MDBCardText>
-                This is a longer card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </MDBCardText>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol>
-          <MDBCard>
-            <MDBCardImage
-              src='https://mdbootstrap.com/img/new/standard/city/043.webp'
-              alt='...'
-              position='top'
-            />
-            <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
-              <MDBCardText>
-                This is a longer card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </MDBCardText>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol>
-          <MDBCard>
-            <MDBCardImage
-              src='https://mdbootstrap.com/img/new/standard/city/044.webp'
-              alt='...'
-              position='top'
-            />
-            <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
-              <MDBCardText>
-                This is a longer card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </MDBCardText>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol>
-          <MDBCard>
-            <MDBCardImage
-              src='https://mdbootstrap.com/img/new/standard/city/044.webp'
-              alt='...'
-              position='top'
-            />
-            <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
-              <MDBCardText>
-                This is a longer card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </MDBCardText>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol>
-          <MDBCard>
-            <MDBCardImage
-              src='https://mdbootstrap.com/img/new/standard/city/044.webp'
-              alt='...'
-              position='top'
-            />
-            <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
-              <MDBCardText>
-                This is a longer card with supporting text below as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </MDBCardText>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
-    </>
-
-      
-          
-    
-
-
-
   );
 };
 

@@ -11,21 +11,21 @@ const Resume = () => {
     <div className="my-5">
       <h3>Front-End Proficiencies</h3>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Bootstrap</li>
+        <li>React</li>
       </ul>
     </div>
     <div>
       <h3>Back-End Proficiencies</h3>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>API's</li>
+        <li>Node</li>
+        <li>MySQL & Sequilize</li>
+        <li>Express</li>
+        <li>MVC</li>
       </ul>
     </div>
     </div>
