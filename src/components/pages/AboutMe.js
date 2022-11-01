@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../assets/images/sketchedFlowers.png"
+import background from "../../assets/images/sketchedBackdrop.png"
 
 const AboutMe = () => {
   return (
@@ -8,14 +8,10 @@ const AboutMe = () => {
       <div className="container-fluid p-5 min-vh-100">
         <div className="row col-7">
           <h1>About Me</h1>
-          <p className='bg-white'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+          <p>
+          Talulah always saw the world in black and white. There were two choices for every situation and you had to choose one of them. It was therefore terribly uncomfortable for her to spend time with Frank. He saw the world in shades of gray with hundreds of choices to choose from in every situation.
+          The trees, therefore, must be such old and primitive techniques that they thought nothing of them, deeming them so inconsequential that even savages like us would know of them and not be suspicious. At that, they probably didn't have too much time after they detected us orbiting and intending to land. And if that were true, there could be only one place where their civilization was hidden.
+          {/* paragraphs taken from randomwordgenerator.com */}
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../assets/images/sketchedFlowers.png"
+import background from "../../assets/images/sketchedBackdrop.png"
 
 const Resume = () => {
   return (
@@ -20,7 +20,7 @@ const Resume = () => {
             <li>React</li>
           </ul>
         </div>
-        <div className= "bg-white">
+        <div>
           <h3>Back-End Proficiencies</h3>
           <ul>
             <li>API's</li>

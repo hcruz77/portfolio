@@ -1,6 +1,5 @@
 import React from 'react';
-import NavBar from './NavBar';
-// Here we are importing a CSS file as a dependency
+
 
 
 

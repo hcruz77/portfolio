@@ -5,7 +5,7 @@ import greeneryThree from "../../assets/images/greeneryThree.jpg";
 import greeneryFour from "../../assets/images/greeneryFour.jpg";
 import greeneryFive from "../../assets/images/greeneryFive.jpg";
 import greenerySix from "../../assets/images/greenerySix.jpg";
-import background from "../../assets/images/sketchedFlowers.png"
+import background from "../../assets/images/sketchedBackdrop.png"
 
 const Portfolio = () => {
   const [projects] = useState([

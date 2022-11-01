@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../assets/images/sketchedFlowers.png"
+import background from "../../assets/images/sketchedBackdrop.png"
 
 const Contact = () => {
   return (
