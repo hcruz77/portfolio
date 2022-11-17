@@ -1,6 +1,6 @@
 import React from 'react';
 import gitHub from '../assets/images/githubkitty.png'
-
+import linkedin from '../assets/images/linkedin.png'
 
 
 function Footer() {
@@ -10,8 +10,11 @@ function Footer() {
         <a href='https://github.com/hcruz77?tab=repositories' target="_blank" rel="noreferrer" className="items-center mb-4 sm:w-30 sm:mb-0" alt="...">
           <img src={gitHub} className="mr-3 h-8" alt="Github Logo" />
         </a>
+        <a href='https://www.linkedin.com/in/heather-cruz-492714255/' target="_blank" rel="noreferrer" className="items-center mb-4 sm:w-30 sm:mb-0" alt="...">
+          <img src={linkedin} className="mr-3 h-8" alt="Linkedin Logo" />
+        </a>
       </div>
-      <spa> © 2022 🌸 Heather Cruz </spa>
+      <span> © 2022 🦋 Heather Cruz </span>
     </footer>
   );
 }

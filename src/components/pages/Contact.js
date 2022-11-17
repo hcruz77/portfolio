@@ -1,12 +1,12 @@
 import React from "react";
-import background from "../../assets/images/sketchedBackdrop.png"
+import background from "../../assets/images/butterflyBackground.png"
 
 const Contact = () => {
   return (
     <>
       <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
       <div className="container-fluid p-5 min-vh-100">
-        <h1>Contact</h1>
+        <h1 className="fw-bold pt-3">Contact</h1>
         <form className="col-6">
           <div className="mb-3">
             <label for="name" className="form-label">Name</label>
