@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../../assets/images/butterflyBackground.png"
-import profile from "../../assets/images/profilepic.jpg"
+// import profile from "../../assets/images/profilepic.jpg"
 
 const AboutMe = () => {
   return (
@@ -16,11 +16,11 @@ const AboutMe = () => {
             The trees, therefore, must be such old and primitive techniques that they thought nothing of them, deeming them so inconsequential that even savages like us would know of them and not be suspicious. At that, they probably didn't have too much time after they detected us orbiting and intending to land. And if that were true, there could be only one place where their civilization was hidden.
             {/* paragraphs taken from randomwordgenerator.com */}
           </p>
-          <div className="row row-cols-2">
+          {/* <div className="row row-cols-2">
             <div className="col-4">
               <img src={profile} class="img-thumbnail" alt="..." />
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
