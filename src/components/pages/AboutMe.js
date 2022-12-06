@@ -9,13 +9,12 @@ const AboutMe = () => {
       backgroundSize: 'cover'
       }} >
       <div className="container-fluid p-5 min-vh-100">
-        {/* <div className="row col-8"> */}
         <h1 className="fw-bold pt-3 ">About Me</h1>
 
-        <div class="card mb-3 bg-transparent text-dark border border-gray">
+        <div class="card mb-3 p-3 bg-transparent text-dark border border-gray">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src={profile} class="img-fluid rounded-start" alt="..." />
+              <img src={profile} class="img-fluid rounded" alt="..." />
             </div>
             <div class="col-md-8">
               <div class="card-body">
