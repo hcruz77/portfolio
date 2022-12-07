@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* portfolio image hover colors */
+
+.gray-clr {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.gray-clr:hover {
+  filter: grayscale(0%);
+}
