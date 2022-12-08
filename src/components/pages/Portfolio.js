@@ -61,7 +61,7 @@ const Portfolio = () => {
       link: "https://glacial-coast-20674.herokuapp.com",
       github: "https://github.com/hcruz77/bullies-to-the-rescue",
       technologies: "React * MongoDB * Tailwind * Express * Node",
-      description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create structure to the application data for admin retreival. "
+      description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create a clean, easy to read structure to the application data for administrative retreival. "
     },
 
 
@@ -77,7 +77,7 @@ const Portfolio = () => {
           <div className="row row-cols-1 row-cols-md-3 g-4">
             {projects.map((project) => (
               <div key={project.id}>
-                  <div className="card h-100 border border-gray shadow p-3 mb-5 bg-body rounded bg-transparent text-dark">
+                  <div className="card h-100 border border-gray shadow p-3 mb-5 bg-body rounded bg-light bg-opacity-50 text-dark">
                     <img
                       src={project.image}
                       className="card-img-top border border-gray shadow gray-clr"

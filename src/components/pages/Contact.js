@@ -7,7 +7,21 @@ const Contact = () => {
       <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
       <div className="container-fluid p-5 min-vh-100">
         <h1 className="fw-bold pt-3">Contact</h1>
-        <form className="col-6">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        {/* <form className="col-6">
           <div className="mb-3">
             <label for="name" className="form-label">Name</label>
             <input type="name" className="form-control" id="name">
@@ -25,7 +39,7 @@ const Contact = () => {
           <div className="col-auto">
             <button type="submit" className="btn btn-primary">Submit</button>
           </div>
-        </form>
+        </form> */}
       </div>
       </div>
     </>

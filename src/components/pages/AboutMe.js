@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className="container-fluid p-5 min-vh-100">
         <h1 className="fw-bold pt-3 ">About Me</h1>
 
-        <div className="card mb-3 p-3 bg-transparent text-dark border border-gray shadow">
+        <div className="card mb-3 p-3 bg-light bg-opacity-50 text-dark border border-gray shadow">
           <div className="row g-0">
             <div className="col-md-4">
               <img src={profile} className="img-fluid rounded border border-gray shadow" alt="..." />
