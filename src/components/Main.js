@@ -32,10 +32,9 @@ export default function Main() {
 
   return (
     <>
-    <div className=" text-left pt-3 ">
+    <div className=" text-left pt-3 bg-light">
       <Header />
-    </div>
-    <div>
+    
       {/* We are passing the currentPage from state and the function to update it */}
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
