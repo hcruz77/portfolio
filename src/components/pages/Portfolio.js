@@ -64,6 +64,7 @@ const Portfolio = () => {
       description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create structure to the application data for admin retreival. "
     },
 
+
   ]);
 
   return (

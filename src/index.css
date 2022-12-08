@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+.nav-link, .nav-link active {
+  box-shadow: 10px 5px 5px rgb(217, 215, 215) ;
+
+}
+
 /* portfolio image hover colors */
 
 .gray-clr {
@@ -22,3 +27,4 @@ code {
 .gray-clr:hover {
   filter: grayscale(0%);
 }
+
