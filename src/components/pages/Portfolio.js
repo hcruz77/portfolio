@@ -69,11 +69,11 @@ const Portfolio = () => {
 
   return (
     <div style={{
-      backgroundImage: `url(${background})`, backgroundSize: 'cover'
+      backgroundImage: `url(${background})`, backgroundSize: 'contain'
     }} >
       <div className=" p-5">
         <h1 className="fw-bold pt-3">Portfolio</h1>
-        <div className="container-fluid ">
+        <div className="container-fluid  min-vh-100">
           <div className="row row-cols-md-3 g-4">
             {projects.map((project) => (
               <div className="py-5" key={project.id}>

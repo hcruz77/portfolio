@@ -18,7 +18,7 @@ const AboutMe = () => {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer kjhkjh klhlkjhljkhkjhl kljhlkjhl kjh klh . This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer kjhkjh klhlkjhljkhkjhl kljhlkjhl kjh klh </p>
+                <p className="card-text">Full stack web developer focusing on combining creative front-end design and user-friendly applications. This content is a little bit longer kjhkjh klhlkjhljkhkjhl kljhlkjhl kjh klh . This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer kjhkjh klhlkjhljkhkjhl kljhlkjhl kjh klh </p>
 
               </div>
             </div>

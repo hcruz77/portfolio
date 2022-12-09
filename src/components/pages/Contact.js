@@ -15,7 +15,7 @@ const Contact = () => {
                   <h5 className="card-title">Heather Cruz</h5>
                   <a href="https://www.linkedin.com/in/heather-cruz-492714255/" target="_blank" rel="noreferrer" className="card-link">Linkedin</a>
                   <a href="https://github.com/hcruz77" target="_blank" rel="noreferrer" className="card-link">Github Profile</a>
-                  <a href="mailto:chance.heather@gmail.com" className="card-link">email</a>
+                  <a href="mailto:chance.heather@gmail.com" className="card-link">Email</a>
                 </div>
               </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 //import Header from "./Header";
 import Footer from "./Footer";
-
+import headerBg from "../assets/images/headerBg2.png";
 import NavBar from './NavBar';
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
@@ -32,16 +32,21 @@ export default function Main() {
 
   return (
     <>
-      <header className="header">
-        <div className="ps-5">
-          <h1 className="display-2">Heather Cruz</h1>
-          <h3 className="text-dark text-opacity-25">Front End Design and Development</h3>
-        </div>
+      <div style={{
+        backgroundImage: `url(${headerBg})`,
+        backgroundSize: 'cover'
+      }} >
+        <header className="header">
+          <div className="ps-5">
+            <h1 className="display-2">Heather Cruz</h1>
+            <h3 className="text-muted">Front End Design and Development</h3>
+          </div>
 
-        {/* We are passing the currentPage from state and the function to update it */}
-        <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      </header>
-        {/* Here we are calling the renderPage method which will return a component  */}
+          {/* We are passing the currentPage from state and the function to update it */}
+          <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+        </header>
+      </div>
+      {/* Here we are calling the renderPage method which will return a component  */}
       <div>
         {renderPage()}
 
@@ -52,6 +57,7 @@ export default function Main() {
       <div>
         <Footer />
       </div>
+
     </>
   );
 }
