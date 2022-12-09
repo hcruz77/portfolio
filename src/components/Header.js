@@ -8,7 +8,7 @@ function Header() {
     <header className="header">
       <div className="ps-5">
         <h1 className="display-2">Heather Cruz</h1>
-        <h3 className="text-dark text opacity-25">Front End Design and Development</h3>
+        <h3 className="text-dark text-opacity-25">Front End Design and Development</h3>
 
 
       </div>

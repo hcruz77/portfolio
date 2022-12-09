@@ -73,11 +73,11 @@ const Portfolio = () => {
     }} >
       <div className=" p-5">
         <h1 className="fw-bold pt-3">Portfolio</h1>
-        <div className="container-fluid min-vh-100">
-          <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="container-fluid ">
+          <div className="row row-cols-md-3 g-4">
             {projects.map((project) => (
-              <div key={project.id}>
-                  <div className="card h-100 border border-gray shadow p-3 mb-5 bg-body rounded bg-light bg-opacity-50 text-dark">
+              <div className="py-5" key={project.id}>
+                  <div className="card h-100 border border-gray shadow  mb-5 bg-body rounded bg-light bg-opacity-50 text-dark">
                     <img
                       src={project.image}
                       className="card-img-top border border-gray shadow gray-clr"
