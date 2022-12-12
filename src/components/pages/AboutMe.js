@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../../assets/images/butterflyBackground.png"
-import profile from "../../assets/images/profilepic.jpg"
+import profile from "../../assets/images/profilePic1.JPG"
 
 const AboutMe = () => {
   return (
@@ -18,7 +18,20 @@ const AboutMe = () => {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <p className="card-text">Full stack web developer focusing on combining creative front-end design and user-friendly applications. This content is a little bit longer kjhkjh klhlkjhljkhkjhl kljhlkjhl kjh klh . This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer kjhkjh klhlkjhljkhkjhl kljhlkjhl kjh klh </p>
+                <p className="card-text">
+                  <ul>
+                    <li>Professional people pleaser</li>
+                    <li>Nature lover</li>
+                    <li>Artist</li>
+                    <li>Information junkie</li>
+                    <li>Rule breaker</li>
+                    <li>Team player</li>
+                    <li>Dog mom</li>
+                    <li>Problem solver extraordinaire</li>
+                  </ul>
+                   Not only do I possess these remarkable quailities, I also come packed with a full stack web developer certificate from University
+                   of North Carolina.  Front end design and development of clean, visually appealing, user-friendly applications are my BFFs.
+                   Let's join forces and make the web a more fun, beautiful place! </p>
 
               </div>
             </div>
