@@ -24,13 +24,13 @@ const AboutMe = () => {
                     <li>Nature lover</li>
                     <li>Artist</li>
                     <li>Information junkie</li>
-                    <li>Rule breaker</li>
+                    <li>Research Jedi</li>
                     <li>Team player</li>
                     <li>Dog mom</li>
                     <li>Problem solver extraordinaire</li>
                   </ul>
                    Not only do I possess these remarkable quailities, I also come packed with a full stack web developer certificate from University
-                   of North Carolina.  Front end design and development of clean, visually appealing, user-friendly applications are my BFFs.
+                   of North Carolina.  Front end design and development of visually appealing, user-friendly applications are my BFFs.
                    Let's join forces and make the web a more fun, beautiful place! </p>
 
               </div>
