@@ -10,7 +10,7 @@ import background from "../../assets/images/butterflyBackground.png"
 const Portfolio = () => {
   const [projects] = useState([
     {
-      id: 1,
+      id: 6,
       title: "Password Generator",
       image: passwordGen,
       link: "https://hcruz77.github.io/password-generator",
@@ -19,7 +19,7 @@ const Portfolio = () => {
       description: "Generates random passwords using character combinations of capital and lower case letters, numbers, and special characters."
     },
     {
-      id: 2,
+      id: 5,
       title: "Code Quiz",
       image: codeQuiz,
       link: "https://hcruz77.github.io/code-quiz",
@@ -28,7 +28,7 @@ const Portfolio = () => {
       description: "An interactive application created as a timed multiple-choice quiz based on coding terms."
     },
     {
-      id: 3,
+      id: 4,
       title: "Weather Dashboard",
       image: weatherDash,
       link: "https://hcruz77.github.io/weather-dashboard",
@@ -37,7 +37,7 @@ const Portfolio = () => {
       description: "Provides current weather conditions for a chosen city, along with 5 day forecast."
     },
     {
-      id: 4,
+      id: 3,
       title: "E-Commerce Back End Demo Video",
       image: eComBackend,
       link: "https://drive.google.com/file/d/1ZTCwSKqVX6KjYEaqbFMd1ayhvih7cyzp/view?usp=sharing",
@@ -46,7 +46,7 @@ const Portfolio = () => {
       description: "Reconfigured back-end starter-code to interact with a database to understand the fundamental architecture of e-commerce platforms."
     },
     {
-      id: 5,
+      id: 2,
       title: "Tech Blog",
       image: techBlog,
       link: "https://shrouded-ravine-33313.herokuapp.com",
@@ -55,7 +55,7 @@ const Portfolio = () => {
       description: "CMS-style blog for tech enthusiasts to publish articles, blog posts, thoughts and opinions."
     },
     {
-      id: 6,
+      id: 1,
       title: "Bullies To The Rescue",
       image: bullies,
       link: "https://glacial-coast-20674.herokuapp.com",
