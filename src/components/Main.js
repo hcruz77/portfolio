@@ -39,7 +39,7 @@ export default function Main() {
         <header className="header">
           <div className="ps-5">
             <h1 className="display-2">Heather Cruz</h1>
-            <h3 className="text-muted">Front End Design and Development</h3>
+            <h4 className="fw-lighter text-muted">Front End Design & Development</h4>
           </div>
 
           {/* We are passing the currentPage from state and the function to update it */}

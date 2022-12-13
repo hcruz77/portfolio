@@ -61,7 +61,7 @@ const Portfolio = () => {
       link: "https://glacial-coast-20674.herokuapp.com",
       github: "https://github.com/hcruz77/bullies-to-the-rescue",
       technologies: "React * MongoDB * Tailwind * Express * Node",
-      description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create a clean, easy to read structure to the application data for administrative retreival. "
+      description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create a clean, easy to read structure to the application data for administrative retrieval. "
     },
 
 
