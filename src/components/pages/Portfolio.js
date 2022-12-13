@@ -9,6 +9,57 @@ import background from "../../assets/images/butterflyBackground.png"
 
 const Portfolio = () => {
   const [projects] = useState([
+
+    {
+        id: 1,
+        title: "Bullies To The Rescue",
+        image: bullies,
+        link: "https://glacial-coast-20674.herokuapp.com",
+        github: "https://github.com/hcruz77/bullies-to-the-rescue",
+        technologies: "React * MongoDB * Tailwind * Express * Node",
+        description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create a clean, easy to read structure to the application data for administrative retrieval. "
+      },
+
+      {
+        id: 2,
+        title: "Tech Blog",
+        image: techBlog,
+        link: "https://shrouded-ravine-33313.herokuapp.com",
+        github: "https://github.com/hcruz77/tech-blog",
+        technologies: "Handlebars.js * MySQL2 * Sequelize * Heroku",
+        description: "CMS-style blog for tech enthusiasts to publish articles, blog posts, thoughts and opinions."
+      },
+
+      {
+        id: 3,
+        title: "E-Commerce Back End Demo Video",
+        image: eComBackend,
+        link: "https://drive.google.com/file/d/1ZTCwSKqVX6KjYEaqbFMd1ayhvih7cyzp/view?usp=sharing",
+        github: "https://github.com/hcruz77/e-commerce-back-end",
+        technologies: "Express.js API * Sequelize * MySQL2 * Insomnia ",
+        description: "Reconfigured back-end starter-code to interact with a database to understand the fundamental architecture of e-commerce platforms."
+      },
+
+      {
+        id: 4,
+        title: "Weather Dashboard",
+        image: weatherDash,
+        link: "https://hcruz77.github.io/weather-dashboard",
+        github: "https://github.com/hcruz77/weather-dashboard",
+        technologies: "OpenWeather API * Bootstrap * Local Storage",
+        description: "Provides current weather conditions for a chosen city, along with 5 day forecast."
+      },
+
+      {
+        id: 5,
+        title: "Code Quiz",
+        image: codeQuiz,
+        link: "https://hcruz77.github.io/code-quiz",
+        github: "https://github.com/hcruz77/code-quiz",
+        technologies: "HTML * CSS * JavaScript",
+        description: "An interactive application created as a timed multiple-choice quiz based on coding terms."
+      },
+
     {
       id: 6,
       title: "Password Generator",
@@ -18,52 +69,6 @@ const Portfolio = () => {
       technologies: "JavaScript * HTML * CSS",
       description: "Generates random passwords using character combinations of capital and lower case letters, numbers, and special characters."
     },
-    {
-      id: 5,
-      title: "Code Quiz",
-      image: codeQuiz,
-      link: "https://hcruz77.github.io/code-quiz",
-      github: "https://github.com/hcruz77/code-quiz",
-      technologies: "HTML * CSS * JavaScript",
-      description: "An interactive application created as a timed multiple-choice quiz based on coding terms."
-    },
-    {
-      id: 4,
-      title: "Weather Dashboard",
-      image: weatherDash,
-      link: "https://hcruz77.github.io/weather-dashboard",
-      github: "https://github.com/hcruz77/weather-dashboard",
-      technologies: "OpenWeather API * Bootstrap * Local Storage",
-      description: "Provides current weather conditions for a chosen city, along with 5 day forecast."
-    },
-    {
-      id: 3,
-      title: "E-Commerce Back End Demo Video",
-      image: eComBackend,
-      link: "https://drive.google.com/file/d/1ZTCwSKqVX6KjYEaqbFMd1ayhvih7cyzp/view?usp=sharing",
-      github: "https://github.com/hcruz77/e-commerce-back-end",
-      technologies: "Express.js API * Sequelize * MySQL2 * Insomnia ",
-      description: "Reconfigured back-end starter-code to interact with a database to understand the fundamental architecture of e-commerce platforms."
-    },
-    {
-      id: 2,
-      title: "Tech Blog",
-      image: techBlog,
-      link: "https://shrouded-ravine-33313.herokuapp.com",
-      github: "https://github.com/hcruz77/tech-blog",
-      technologies: "Handlebars.js * MySQL2 * Sequelize * Heroku",
-      description: "CMS-style blog for tech enthusiasts to publish articles, blog posts, thoughts and opinions."
-    },
-    {
-      id: 1,
-      title: "Bullies To The Rescue",
-      image: bullies,
-      link: "https://glacial-coast-20674.herokuapp.com",
-      github: "https://github.com/hcruz77/bullies-to-the-rescue",
-      technologies: "React * MongoDB * Tailwind * Express * Node",
-      description: "Group collaboration project using MERN stack single-page application for local non-profit bulldog rescue. Goal was to create a clean, easy to read structure to the application data for administrative retrieval. "
-    },
-
 
   ]);
 
