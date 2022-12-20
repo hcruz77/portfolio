@@ -20,7 +20,7 @@ const AboutMe = () => {
               <div className="card-body">
                 <p className="card-text">
                   <ul>
-                    <li>Professional people pleaser</li>
+                    <li>Professional happiness advocate</li>
                     <li>Nature lover</li>
                     <li>Artist</li>
                     <li>Information junkie</li>
