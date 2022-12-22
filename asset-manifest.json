@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.87050f93.css",
-    "main.js": "/portfolio/static/js/main.7933c2c1.js",
+    "main.js": "/portfolio/static/js/main.ba7f4ba5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/butterflyBackground.png": "/portfolio/static/media/butterflyBackground.5c2a11852c73df724583.png",
-    "static/media/profilePic1.JPG": "/portfolio/static/media/profilePic1.bb7f446ed7f34e655e29.JPG",
     "static/media/headerBg2.png": "/portfolio/static/media/headerBg2.35b5d695781388b42dee.png",
+    "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.98aae96c3cf9c133381a.jpg",
     "static/media/bullies.png": "/portfolio/static/media/bullies.3b03115ee0f029dbc7e0.png",
     "static/media/weatherDash.png": "/portfolio/static/media/weatherDash.e324b23dade15baef25b.png",
     "static/media/techBlog.png": "/portfolio/static/media/techBlog.f2348c42de6a8fdb10ef.png",
@@ -14,11 +14,11 @@
     "static/media/codeQuiz.png": "/portfolio/static/media/codeQuiz.7f812b5c15a641eb8f1e.png",
     "index.html": "/portfolio/index.html",
     "main.87050f93.css.map": "/portfolio/static/css/main.87050f93.css.map",
-    "main.7933c2c1.js.map": "/portfolio/static/js/main.7933c2c1.js.map",
+    "main.ba7f4ba5.js.map": "/portfolio/static/js/main.ba7f4ba5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87050f93.css",
-    "static/js/main.7933c2c1.js"
+    "static/js/main.ba7f4ba5.js"
   ]
 }
