@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../../assets/images/butterflyBackground.png"
-import profile from "../../assets/images/profilePic1.JPG"
+import profile from "../../assets/images/profilepic.jpg"
 
 const AboutMe = () => {
   return (

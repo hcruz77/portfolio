@@ -11,7 +11,7 @@ function Footer() {
         <a href='https://github.com/hcruz77' target="_blank" rel="noreferrer" className="items-center mb-4 sm:w-30 sm:mb-0" alt="...">
           <img src={gitHub} className="mr-3 h-8" alt="Github Logo" />
         </a>
-        <a href='https://www.linkedin.com/in/heather-cruz-492714255/' target="_blank" rel="noreferrer" className="items-center mb-4 sm:w-30 sm:mb-0" alt="...">
+        <a href='https://www.linkedin.com/in/heather-cruz/' target="_blank" rel="noreferrer" className="items-center mb-4 sm:w-30 sm:mb-0" alt="...">
           <img src={linkedin} className="mr-3 h-8" alt="Linkedin Logo" />
         </a>
         <a href='mailto:chance.heather@gmail.com' target="_blank" rel="noreferrer" className="items-center mb-4 sm:w-30 sm:mb-0" alt="...">
